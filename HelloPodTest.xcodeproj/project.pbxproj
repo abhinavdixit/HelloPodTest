@@ -14,6 +14,7 @@
 		F672B1111A4003060068C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F672B1101A4003060068C39A /* Images.xcassets */; };
 		F672B1141A4003060068C39A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F672B1121A4003060068C39A /* LaunchScreen.xib */; };
 		F672B1201A4003060068C39A /* HelloPodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F672B11F1A4003060068C39A /* HelloPodTestTests.m */; };
+		F6816BA31A41628C00D1ACA4 /* HelloPodTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F6816BA21A41628C00D1ACA4 /* HelloPodTest.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F672B1191A4003060068C39A /* HelloPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F672B11E1A4003060068C39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F672B11F1A4003060068C39A /* HelloPodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPodTestTests.m; sourceTree = "<group>"; };
+		F6816BA21A41628C00D1ACA4 /* HelloPodTest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloPodTest.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		F672B0F71A4003060068C39A = {
 			isa = PBXGroup;
 			children = (
+				F6816BA21A41628C00D1ACA4 /* HelloPodTest.podspec */,
 				F672B1021A4003060068C39A /* HelloPodTest */,
 				F672B11C1A4003060068C39A /* HelloPodTestTests */,
 				F672B1011A4003060068C39A /* Products */,
@@ -202,6 +205,7 @@
 				F672B10F1A4003060068C39A /* Main.storyboard in Resources */,
 				F672B1141A4003060068C39A /* LaunchScreen.xib in Resources */,
 				F672B1111A4003060068C39A /* Images.xcassets in Resources */,
+				F6816BA31A41628C00D1ACA4 /* HelloPodTest.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				F672B1251A4003060068C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F672B1261A4003060068C39A /* Build configuration list for PBXNativeTarget "HelloPodTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				F672B1281A4003060068C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
